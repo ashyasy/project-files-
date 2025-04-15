@@ -1,0 +1,1 @@
+If you need to run the python scrips for the graphs you need to hardcode the directory of the output file on line 6 of the script 
