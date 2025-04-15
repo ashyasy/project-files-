@@ -1,0 +1,12 @@
+CC = g++
+CFLAGS = -Wall -std=c++11
+TARGET = cooke_parser
+SRC = cooke_analyzer.cpp cooke_parser.cpp
+
+all: $(TARGET)
+
+$(TARGET): $(SRC)
+	$(CC) $(CFLAGS) -o $(TARGET) $(SRC)
+
+clean:
+	rm -f $(TARGET)
